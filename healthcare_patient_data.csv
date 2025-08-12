@@ -1,0 +1,501 @@
+Patient_ID,Name,Gender,Age,Department,Doctor,Diagnosis,Admission_Date,Discharge_Date,Stay_Length_Days,Status,Bill_Amount
+P1000,Patient_0,Other,14,Cardiology,Dr. Johnson,Cancer,2023-08-22,2023-09-04,13,Discharged,26519.59
+P1001,Patient_1,Male,49,Pediatrics,Dr. Johnson,Fracture,2023-03-18,2023-03-24,6,Discharged,22075.48
+P1002,Patient_2,Male,5,Pediatrics,Dr. Patel,Covid-19,2023-11-07,2023-11-25,18,Discharged,8617.63
+P1003,Patient_3,Other,61,Emergency,Dr. Lee,Covid-19,2023-09-21,2023-10-07,16,Discharged,20418.08
+P1004,Patient_4,Female,29,Oncology,Dr. Johnson,Flu,2023-03-13,2023-03-21,8,Discharged,10916.18
+P1005,Patient_5,Male,26,Pediatrics,Dr. Smith,Heart Disease,2023-06-17,2023-06-25,8,Discharged,32504.08
+P1006,Patient_6,Male,59,Neurology,Dr. Smith,Migraine,2023-11-10,2023-11-20,10,Discharged,35284.78
+P1007,Patient_7,Male,45,Cardiology,Dr. Johnson,Flu,2023-06-13,2023-06-18,5,Discharged,32972.48
+P1008,Patient_8,Other,40,Orthopedics,Dr. Smith,Heart Disease,2023-03-25,2023-04-09,15,Discharged,49995.18
+P1009,Patient_9,Male,30,Neurology,Dr. Lee,Heart Disease,2023-07-21,2023-07-23,2,Discharged,28635.8
+P1010,Patient_10,Other,29,Emergency,Dr. Johnson,Heart Disease,2023-11-12,2023-11-30,18,Discharged,25502.82
+P1011,Patient_11,Other,4,Neurology,Dr. Patel,Asthma,2024-01-14,2024-01-28,14,Discharged,8734.23
+P1012,Patient_12,Other,85,Emergency,Dr. Lee,Heart Disease,2023-06-03,2023-06-17,14,Discharged,17099.84
+P1013,Patient_13,Male,25,Pediatrics,Dr. Smith,Heart Disease,2023-10-31,2023-11-18,18,Discharged,23648.05
+P1014,Patient_14,Other,52,Cardiology,Dr. Johnson,Flu,2023-06-22,2023-07-09,17,Discharged,4573.34
+P1015,Patient_15,Female,43,Emergency,Dr. Lee,Cancer,2023-09-17,2023-09-22,5,Discharged,19233.88
+P1016,Patient_16,Male,36,Orthopedics,Dr. Smith,Asthma,2023-09-18,2023-10-01,13,Discharged,2460.01
+P1017,Patient_17,Male,9,Neurology,Dr. Johnson,Cancer,2023-09-30,2023-10-08,8,Discharged,8553.67
+P1018,Patient_18,Male,36,Emergency,Dr. Brown,Flu,2023-09-08,2023-09-17,9,Discharged,41130.37
+P1019,Patient_19,Male,45,Oncology,Dr. Patel,Covid-19,2023-12-29,2024-01-05,7,Discharged,48263.8
+P1020,Patient_20,Male,83,Emergency,Dr. Smith,Cancer,2023-10-16,2023-10-27,11,Discharged,26261.02
+P1021,Patient_21,Other,66,Orthopedics,Dr. Smith,Migraine,2023-06-03,2023-06-06,3,Discharged,25758.55
+P1022,Patient_22,Other,52,Pediatrics,Dr. Brown,Migraine,2023-09-01,2023-09-16,15,Discharged,34865.44
+P1023,Patient_23,Male,87,Cardiology,Dr. Brown,Covid-19,2023-01-09,2023-01-21,12,Discharged,21950.26
+P1024,Patient_24,Other,69,Oncology,Dr. Lee,Flu,2023-07-08,2023-07-11,3,Discharged,42314.81
+P1025,Patient_25,Male,43,Orthopedics,Dr. Patel,Migraine,2023-06-19,2023-07-07,18,Discharged,25457.58
+P1026,Patient_26,Other,4,Emergency,Dr. Patel,Asthma,2023-12-11,2023-12-18,7,Discharged,5968.19
+P1027,Patient_27,Other,15,Orthopedics,Dr. Smith,Flu,2023-02-26,2023-02-28,2,Discharged,3481.31
+P1028,Patient_28,Other,34,Neurology,Dr. Brown,Migraine,2023-08-02,2023-08-11,9,Discharged,38530.72
+P1029,Patient_29,Other,23,Orthopedics,Dr. Patel,Fracture,2023-10-26,2023-11-08,13,Discharged,16020.32
+P1030,Patient_30,Female,75,Cardiology,Dr. Johnson,Covid-19,2023-06-07,2023-06-27,20,Discharged,15192.94
+P1031,Patient_31,Male,34,Cardiology,Dr. Patel,Covid-19,2024-01-07,2024-01-27,20,Discharged,27805.21
+P1032,Patient_32,Female,5,Orthopedics,Dr. Smith,Covid-19,2023-12-19,2023-12-21,2,Discharged,10074.03
+P1033,Patient_33,Other,14,Neurology,Dr. Patel,Flu,2023-11-19,2023-11-22,3,Discharged,23951.43
+P1034,Patient_34,Female,77,Oncology,Dr. Lee,Asthma,2023-01-14,2023-01-21,7,Discharged,37640.88
+P1035,Patient_35,Male,56,Emergency,Dr. Brown,Heart Disease,2023-11-02,2023-11-21,19,Discharged,38764.14
+P1036,Patient_36,Male,45,Oncology,Dr. Smith,Covid-19,2023-08-31,2023-09-18,18,Discharged,28386.86
+P1037,Patient_37,Other,41,Neurology,Dr. Smith,Asthma,2023-05-16,2023-05-23,7,Discharged,7434.13
+P1038,Patient_38,Female,56,Pediatrics,Dr. Brown,Migraine,2023-12-02,2023-12-18,16,Discharged,7481.92
+P1039,Patient_39,Female,78,Cardiology,Dr. Brown,Fracture,2024-02-05,2024-02-12,7,Discharged,39205.43
+P1040,Patient_40,Female,66,Pediatrics,Dr. Brown,Flu,2024-02-02,2024-02-13,11,Discharged,41517.57
+P1041,Patient_41,Male,15,Emergency,Dr. Smith,Migraine,2023-10-24,2023-11-03,10,Discharged,19609.37
+P1042,Patient_42,Male,50,Neurology,Dr. Brown,Heart Disease,2023-10-23,2023-10-24,1,Discharged,41485.32
+P1043,Patient_43,Female,74,Emergency,Dr. Brown,Migraine,2023-04-27,2023-05-04,7,Discharged,3997.31
+P1044,Patient_44,Male,25,Pediatrics,Dr. Smith,Asthma,2024-01-05,2024-01-12,7,Discharged,36511.05
+P1045,Patient_45,Male,33,Neurology,Dr. Smith,Covid-19,2023-01-27,2023-01-31,4,Discharged,28224.96
+P1046,Patient_46,Female,6,Oncology,Dr. Lee,Fracture,2023-10-26,2023-11-11,16,Discharged,49509.23
+P1047,Patient_47,Male,56,Oncology,Dr. Patel,Asthma,2023-09-03,2023-09-11,8,Discharged,6915.99
+P1048,Patient_48,Female,1,Pediatrics,Dr. Johnson,Asthma,2023-03-29,2023-04-18,20,Discharged,41843.39
+P1049,Patient_49,Female,67,Pediatrics,Dr. Smith,Covid-19,2023-09-26,2023-10-03,7,Discharged,38064.58
+P1050,Patient_50,Other,69,Cardiology,Dr. Johnson,Cancer,2023-11-19,2023-12-02,13,Discharged,16290.03
+P1051,Patient_51,Female,88,Oncology,Dr. Lee,Covid-19,2024-01-05,2024-01-13,8,Discharged,49967.01
+P1052,Patient_52,Male,86,Cardiology,Dr. Patel,Cancer,2023-11-14,2023-12-02,18,Discharged,23587.15
+P1053,Patient_53,Other,26,Pediatrics,Dr. Patel,Covid-19,2024-02-01,2024-02-12,11,Discharged,18731.69
+P1054,Patient_54,Female,47,Emergency,Dr. Patel,Fracture,2023-07-14,2023-07-24,10,Discharged,41202.97
+P1055,Patient_55,Other,56,Neurology,Dr. Lee,Asthma,2023-03-17,2023-03-30,13,Discharged,23075.36
+P1056,Patient_56,Male,9,Oncology,Dr. Brown,Fracture,2023-12-15,2023-12-30,15,Discharged,49709.97
+P1057,Patient_57,Female,86,Neurology,Dr. Patel,Flu,2023-05-05,2023-05-23,18,Discharged,39230.32
+P1058,Patient_58,Male,43,Cardiology,Dr. Patel,Covid-19,2023-01-17,2023-01-29,12,Discharged,13373.41
+P1059,Patient_59,Other,80,Cardiology,Dr. Lee,Asthma,2023-10-21,2023-10-31,10,Discharged,40913.73
+P1060,Patient_60,Female,41,Orthopedics,Dr. Brown,Cancer,2023-12-25,2024-01-03,9,Discharged,30220.35
+P1061,Patient_61,Other,85,Emergency,Dr. Patel,Flu,2023-02-26,2023-03-10,12,Discharged,18830.28
+P1062,Patient_62,Other,16,Oncology,Dr. Patel,Migraine,2023-04-08,2023-04-25,17,Discharged,36116.19
+P1063,Patient_63,Female,39,Oncology,Dr. Brown,Fracture,2023-01-10,2023-01-26,16,Discharged,32372.99
+P1064,Patient_64,Other,65,Cardiology,Dr. Smith,Flu,2023-08-14,2023-08-29,15,Discharged,9967.12
+P1065,Patient_65,Male,40,Emergency,Dr. Smith,Asthma,2023-06-10,2023-06-14,4,Discharged,8683.28
+P1066,Patient_66,Other,86,Neurology,Dr. Patel,Fracture,2023-08-03,2023-08-19,16,Discharged,11917.74
+P1067,Patient_67,Male,53,Oncology,Dr. Johnson,Flu,2023-03-19,2023-03-30,11,Discharged,11933.25
+P1068,Patient_68,Male,42,Cardiology,Dr. Brown,Migraine,2023-07-31,2023-08-07,7,Discharged,4849.18
+P1069,Patient_69,Other,52,Orthopedics,Dr. Brown,Migraine,2023-12-20,2024-01-01,12,Discharged,18839.14
+P1070,Patient_70,Male,90,Pediatrics,Dr. Johnson,Heart Disease,2023-04-15,2023-04-26,11,Discharged,15492.08
+P1071,Patient_71,Female,38,Oncology,Dr. Brown,Cancer,2023-07-30,2023-08-13,14,Discharged,27860.89
+P1072,Patient_72,Male,71,Emergency,Dr. Lee,Asthma,2023-09-14,2023-09-16,2,Discharged,17535.37
+P1073,Patient_73,Male,17,Pediatrics,Dr. Brown,Heart Disease,2024-02-01,2024-02-20,19,Discharged,35794.58
+P1074,Patient_74,Male,25,Neurology,Dr. Brown,Cancer,2023-11-10,2023-11-18,8,Discharged,15888.0
+P1075,Patient_75,Female,54,Orthopedics,Dr. Brown,Migraine,2023-08-30,2023-09-04,5,Discharged,14832.47
+P1076,Patient_76,Female,86,Oncology,Dr. Smith,Flu,2024-01-12,2024-01-13,1,Discharged,43184.81
+P1077,Patient_77,Female,49,Pediatrics,Dr. Lee,Asthma,2024-01-08,2024-01-17,9,Discharged,49303.44
+P1078,Patient_78,Other,87,Emergency,Dr. Brown,Covid-19,2023-02-01,2023-02-19,18,Discharged,34606.37
+P1079,Patient_79,Female,23,Pediatrics,Dr. Lee,Fracture,2023-12-28,2024-01-16,19,Discharged,6570.81
+P1080,Patient_80,Male,79,Cardiology,Dr. Lee,Migraine,2023-03-12,2023-03-31,19,Discharged,48213.06
+P1081,Patient_81,Female,73,Pediatrics,Dr. Lee,Migraine,2023-09-23,2023-10-07,14,Discharged,39713.17
+P1082,Patient_82,Female,39,Neurology,Dr. Johnson,Asthma,2023-04-17,2023-04-27,10,Discharged,46100.9
+P1083,Patient_83,Male,52,Pediatrics,Dr. Brown,Asthma,2023-10-15,2023-10-20,5,Discharged,49639.34
+P1084,Patient_84,Other,71,Neurology,Dr. Smith,Flu,2023-06-16,2023-06-23,7,Discharged,43618.28
+P1085,Patient_85,Female,1,Neurology,Dr. Smith,Asthma,2023-12-06,2023-12-17,11,Discharged,8090.63
+P1086,Patient_86,Other,39,Emergency,Dr. Smith,Covid-19,2023-09-02,2023-09-10,8,Discharged,43571.78
+P1087,Patient_87,Other,37,Cardiology,Dr. Smith,Migraine,2023-09-27,2023-10-10,13,Discharged,13984.51
+P1088,Patient_88,Other,27,Orthopedics,Dr. Brown,Migraine,2023-07-12,2023-07-31,19,Discharged,36146.95
+P1089,Patient_89,Male,56,Neurology,Dr. Smith,Flu,2023-06-10,2023-06-18,8,Discharged,41767.13
+P1090,Patient_90,Other,75,Pediatrics,Dr. Lee,Asthma,2023-03-30,2023-04-15,16,Discharged,38550.73
+P1091,Patient_91,Other,78,Emergency,Dr. Johnson,Migraine,2023-08-24,2023-09-11,18,Discharged,34459.26
+P1092,Patient_92,Male,84,Pediatrics,Dr. Patel,Cancer,2023-09-30,2023-10-11,11,Discharged,25494.02
+P1093,Patient_93,Other,42,Neurology,Dr. Smith,Cancer,2023-06-25,2023-07-04,9,Discharged,29716.43
+P1094,Patient_94,Other,60,Emergency,Dr. Patel,Covid-19,2023-10-07,2023-10-23,16,Discharged,14898.42
+P1095,Patient_95,Male,57,Pediatrics,Dr. Patel,Cancer,2023-07-01,2023-07-17,16,Discharged,21882.8
+P1096,Patient_96,Male,57,Oncology,Dr. Patel,Cancer,2023-12-13,2023-12-28,15,Discharged,23695.6
+P1097,Patient_97,Female,87,Cardiology,Dr. Lee,Migraine,2024-01-31,2024-02-06,6,Discharged,32414.13
+P1098,Patient_98,Female,28,Pediatrics,Dr. Smith,Fracture,2024-01-05,2024-01-17,12,Discharged,44246.0
+P1099,Patient_99,Female,66,Cardiology,Dr. Brown,Cancer,2023-12-15,2023-12-21,6,Discharged,6468.55
+P1100,Patient_100,Other,61,Neurology,Dr. Lee,Covid-19,2023-11-26,2023-12-01,5,Discharged,26749.45
+P1101,Patient_101,Other,22,Neurology,Dr. Brown,Cancer,2023-12-21,2024-01-08,18,Discharged,15354.83
+P1102,Patient_102,Other,85,Neurology,Dr. Smith,Migraine,2023-05-16,2023-06-01,16,Discharged,46944.13
+P1103,Patient_103,Male,11,Cardiology,Dr. Lee,Asthma,2023-11-09,2023-11-15,6,Discharged,19715.42
+P1104,Patient_104,Other,37,Pediatrics,Dr. Patel,Heart Disease,2023-09-05,2023-09-23,18,Discharged,47612.2
+P1105,Patient_105,Female,66,Oncology,Dr. Lee,Migraine,2023-04-09,2023-04-11,2,Discharged,17709.89
+P1106,Patient_106,Male,85,Cardiology,Dr. Lee,Asthma,2023-05-07,2023-05-24,17,Discharged,2118.71
+P1107,Patient_107,Male,82,Emergency,Dr. Smith,Flu,2023-05-23,2023-05-25,2,Discharged,39158.49
+P1108,Patient_108,Male,80,Oncology,Dr. Patel,Covid-19,2023-10-13,2023-10-16,3,Discharged,37170.75
+P1109,Patient_109,Female,43,Pediatrics,Dr. Patel,Cancer,2023-06-02,2023-06-04,2,Discharged,37084.73
+P1110,Patient_110,Female,12,Pediatrics,Dr. Johnson,Flu,2023-04-26,2023-04-27,1,Discharged,24005.56
+P1111,Patient_111,Female,31,Cardiology,Dr. Johnson,Cancer,2023-06-02,2023-06-16,14,Discharged,33878.9
+P1112,Patient_112,Male,87,Orthopedics,Dr. Brown,Heart Disease,2024-01-30,2024-02-04,5,Discharged,19194.69
+P1113,Patient_113,Male,40,Oncology,Dr. Johnson,Asthma,2023-05-28,2023-06-05,8,Discharged,5039.87
+P1114,Patient_114,Other,29,Neurology,Dr. Smith,Fracture,2023-12-27,2023-12-30,3,Discharged,27652.37
+P1115,Patient_115,Other,26,Oncology,Dr. Lee,Heart Disease,2023-04-17,2023-04-22,5,Discharged,12455.84
+P1116,Patient_116,Female,19,Pediatrics,Dr. Patel,Migraine,2023-12-20,2023-12-21,1,Discharged,22622.87
+P1117,Patient_117,Male,4,Emergency,Dr. Lee,Migraine,2023-12-27,2024-01-03,7,Discharged,12168.87
+P1118,Patient_118,Other,6,Pediatrics,Dr. Smith,Flu,2023-09-08,2023-09-25,17,Discharged,14889.77
+P1119,Patient_119,Female,32,Cardiology,Dr. Lee,Flu,2023-06-12,2023-06-27,15,Discharged,41760.49
+P1120,Patient_120,Female,61,Orthopedics,Dr. Patel,Migraine,2023-09-03,2023-09-15,12,Discharged,18212.25
+P1121,Patient_121,Other,79,Neurology,Dr. Johnson,Covid-19,2023-06-28,2023-06-30,2,Discharged,29740.81
+P1122,Patient_122,Female,10,Oncology,Dr. Brown,Migraine,2023-10-14,2023-11-03,20,Discharged,29174.82
+P1123,Patient_123,Male,59,Orthopedics,Dr. Patel,Migraine,2024-01-05,2024-01-25,20,Discharged,25296.22
+P1124,Patient_124,Female,54,Neurology,Dr. Patel,Cancer,2023-05-21,2023-06-06,16,Discharged,18499.5
+P1125,Patient_125,Male,81,Pediatrics,Dr. Patel,Heart Disease,2023-05-28,2023-06-13,16,Discharged,34762.49
+P1126,Patient_126,Male,74,Emergency,Dr. Patel,Covid-19,2023-03-04,2023-03-05,1,Discharged,4323.64
+P1127,Patient_127,Other,25,Pediatrics,Dr. Smith,Cancer,2023-10-21,2023-10-22,1,Discharged,6779.59
+P1128,Patient_128,Other,90,Cardiology,Dr. Patel,Fracture,2023-12-13,2023-12-31,18,Discharged,39626.71
+P1129,Patient_129,Other,50,Cardiology,Dr. Lee,Covid-19,2023-10-06,2023-10-24,18,Discharged,24059.92
+P1130,Patient_130,Female,64,Emergency,Dr. Smith,Cancer,2023-07-14,2023-07-28,14,Discharged,7963.38
+P1131,Patient_131,Other,52,Oncology,Dr. Johnson,Migraine,2023-07-22,2023-07-23,1,Discharged,43167.28
+P1132,Patient_132,Other,32,Orthopedics,Dr. Lee,Cancer,2023-06-26,2023-06-27,1,Discharged,23181.73
+P1133,Patient_133,Female,19,Emergency,Dr. Lee,Flu,2024-01-31,2024-02-17,17,Discharged,2032.44
+P1134,Patient_134,Other,84,Orthopedics,Dr. Lee,Covid-19,2023-03-16,2023-03-25,9,Discharged,47985.52
+P1135,Patient_135,Female,89,Neurology,Dr. Lee,Asthma,2023-05-29,2023-06-16,18,Discharged,11711.27
+P1136,Patient_136,Female,1,Oncology,Dr. Smith,Migraine,2023-01-22,2023-02-01,10,Discharged,35052.41
+P1137,Patient_137,Male,14,Cardiology,Dr. Johnson,Heart Disease,2023-05-28,2023-05-29,1,Discharged,8331.83
+P1138,Patient_138,Male,55,Oncology,Dr. Johnson,Cancer,2024-01-01,2024-01-18,17,Discharged,33199.87
+P1139,Patient_139,Other,29,Pediatrics,Dr. Patel,Migraine,2023-02-10,2023-02-24,14,Discharged,9630.92
+P1140,Patient_140,Female,23,Cardiology,Dr. Brown,Covid-19,2023-06-27,2023-07-03,6,Discharged,46770.83
+P1141,Patient_141,Male,90,Orthopedics,Dr. Smith,Asthma,2023-08-15,2023-08-19,4,Discharged,15152.93
+P1142,Patient_142,Male,67,Cardiology,Dr. Johnson,Flu,2023-12-02,2023-12-06,4,Discharged,33420.22
+P1143,Patient_143,Male,60,Pediatrics,Dr. Smith,Flu,2023-05-12,2023-05-29,17,Discharged,14018.69
+P1144,Patient_144,Male,7,Cardiology,Dr. Smith,Covid-19,2024-01-18,2024-01-23,5,Discharged,19848.5
+P1145,Patient_145,Other,72,Emergency,Dr. Patel,Covid-19,2023-09-03,2023-09-11,8,Discharged,45382.41
+P1146,Patient_146,Male,32,Orthopedics,Dr. Johnson,Cancer,2023-04-20,2023-04-27,7,Discharged,9945.2
+P1147,Patient_147,Other,16,Pediatrics,Dr. Brown,Migraine,2023-04-14,2023-05-04,20,Discharged,21024.4
+P1148,Patient_148,Female,59,Emergency,Dr. Brown,Heart Disease,2023-10-03,2023-10-20,17,Discharged,16664.44
+P1149,Patient_149,Other,18,Neurology,Dr. Brown,Asthma,2023-05-19,2023-05-28,9,Discharged,35573.19
+P1150,Patient_150,Male,60,Oncology,Dr. Lee,Covid-19,2023-10-15,2023-10-27,12,Discharged,13238.9
+P1151,Patient_151,Female,86,Emergency,Dr. Johnson,Covid-19,2023-12-23,2024-01-01,9,Discharged,33463.29
+P1152,Patient_152,Female,68,Neurology,Dr. Lee,Fracture,2023-05-20,2023-06-02,13,Discharged,35777.51
+P1153,Patient_153,Other,72,Pediatrics,Dr. Lee,Flu,2023-03-12,2023-03-15,3,Discharged,2052.14
+P1154,Patient_154,Female,77,Pediatrics,Dr. Lee,Fracture,2023-02-25,2023-03-09,12,Discharged,24886.72
+P1155,Patient_155,Other,41,Pediatrics,Dr. Patel,Asthma,2023-11-12,2023-11-25,13,Discharged,8369.59
+P1156,Patient_156,Female,57,Orthopedics,Dr. Patel,Heart Disease,2024-01-15,2024-01-30,15,Discharged,12857.16
+P1157,Patient_157,Other,79,Pediatrics,Dr. Smith,Covid-19,2023-10-28,2023-11-16,19,Discharged,34639.17
+P1158,Patient_158,Male,65,Oncology,Dr. Smith,Asthma,2023-05-03,2023-05-11,8,Discharged,2445.77
+P1159,Patient_159,Other,55,Orthopedics,Dr. Johnson,Cancer,2023-05-05,2023-05-13,8,Discharged,35388.66
+P1160,Patient_160,Other,71,Pediatrics,Dr. Johnson,Flu,2023-01-26,2023-02-05,10,Discharged,41221.23
+P1161,Patient_161,Male,58,Orthopedics,Dr. Patel,Fracture,2023-12-09,2023-12-12,3,Discharged,49431.44
+P1162,Patient_162,Other,21,Oncology,Dr. Smith,Flu,2023-09-29,2023-10-01,2,Discharged,22271.07
+P1163,Patient_163,Other,61,Oncology,Dr. Smith,Fracture,2023-04-26,2023-04-29,3,Discharged,8344.41
+P1164,Patient_164,Female,58,Emergency,Dr. Lee,Asthma,2023-11-23,2023-12-06,13,Discharged,5399.76
+P1165,Patient_165,Other,34,Orthopedics,Dr. Brown,Covid-19,2023-04-30,2023-05-13,13,Discharged,20387.36
+P1166,Patient_166,Female,32,Cardiology,Dr. Brown,Migraine,2023-01-27,2023-02-09,13,Discharged,37076.64
+P1167,Patient_167,Male,82,Neurology,Dr. Brown,Migraine,2023-02-21,2023-03-11,18,Discharged,6916.5
+P1168,Patient_168,Female,36,Pediatrics,Dr. Patel,Cancer,2023-07-31,2023-08-16,16,Discharged,17040.87
+P1169,Patient_169,Female,67,Neurology,Dr. Brown,Heart Disease,2023-06-19,2023-06-21,2,Discharged,44287.47
+P1170,Patient_170,Male,63,Oncology,Dr. Brown,Flu,2024-01-03,2024-01-04,1,Discharged,8582.21
+P1171,Patient_171,Female,81,Neurology,Dr. Lee,Heart Disease,2023-08-30,2023-09-05,6,Discharged,39126.1
+P1172,Patient_172,Male,31,Cardiology,Dr. Johnson,Fracture,2023-02-21,2023-02-24,3,Discharged,38151.57
+P1173,Patient_173,Other,36,Neurology,Dr. Patel,Covid-19,2023-12-15,2023-12-31,16,Discharged,8391.02
+P1174,Patient_174,Other,57,Emergency,Dr. Smith,Cancer,2024-01-30,2024-02-13,14,Discharged,49661.13
+P1175,Patient_175,Female,10,Neurology,Dr. Lee,Migraine,2023-03-12,2023-03-23,11,Discharged,8856.95
+P1176,Patient_176,Other,37,Oncology,Dr. Brown,Migraine,2023-01-03,2023-01-22,19,Discharged,27464.4
+P1177,Patient_177,Male,31,Oncology,Dr. Smith,Cancer,2023-10-09,2023-10-13,4,Discharged,2406.79
+P1178,Patient_178,Other,35,Emergency,Dr. Lee,Asthma,2023-03-22,2023-04-08,17,Discharged,33200.97
+P1179,Patient_179,Male,43,Pediatrics,Dr. Patel,Flu,2023-07-28,2023-07-30,2,Discharged,23124.77
+P1180,Patient_180,Other,41,Orthopedics,Dr. Brown,Heart Disease,2023-12-01,2023-12-09,8,Discharged,36676.74
+P1181,Patient_181,Female,70,Pediatrics,Dr. Patel,Fracture,2023-09-01,2023-09-08,7,Discharged,32147.84
+P1182,Patient_182,Other,11,Oncology,Dr. Lee,Heart Disease,2023-09-02,2023-09-21,19,Discharged,9265.96
+P1183,Patient_183,Other,18,Pediatrics,Dr. Smith,Migraine,2023-11-30,2023-12-16,16,Discharged,21762.07
+P1184,Patient_184,Other,20,Neurology,Dr. Johnson,Cancer,2023-04-13,2023-04-22,9,Discharged,34955.18
+P1185,Patient_185,Male,30,Neurology,Dr. Brown,Migraine,2024-01-23,2024-01-25,2,Discharged,43278.2
+P1186,Patient_186,Male,50,Oncology,Dr. Patel,Covid-19,2023-05-28,2023-05-31,3,Discharged,6161.03
+P1187,Patient_187,Female,89,Oncology,Dr. Smith,Migraine,2023-06-14,2023-06-23,9,Discharged,6822.33
+P1188,Patient_188,Male,20,Pediatrics,Dr. Smith,Fracture,2023-05-27,2023-06-14,18,Discharged,38117.39
+P1189,Patient_189,Other,28,Pediatrics,Dr. Johnson,Flu,2023-11-27,2023-12-16,19,Discharged,30299.55
+P1190,Patient_190,Other,9,Neurology,Dr. Lee,Flu,2023-01-31,2023-02-02,2,Discharged,20433.53
+P1191,Patient_191,Male,54,Orthopedics,Dr. Johnson,Covid-19,2024-01-29,2024-02-04,6,Discharged,48235.94
+P1192,Patient_192,Other,53,Emergency,Dr. Johnson,Fracture,2023-02-15,2023-02-26,11,Discharged,17096.18
+P1193,Patient_193,Female,43,Orthopedics,Dr. Lee,Cancer,2023-11-30,2023-12-01,1,Discharged,8711.85
+P1194,Patient_194,Female,70,Oncology,Dr. Lee,Heart Disease,2023-10-21,2023-10-28,7,Discharged,15294.45
+P1195,Patient_195,Male,60,Pediatrics,Dr. Lee,Cancer,2023-04-29,2023-05-18,19,Discharged,6043.94
+P1196,Patient_196,Male,54,Orthopedics,Dr. Smith,Heart Disease,2023-10-01,2023-10-06,5,Discharged,28563.04
+P1197,Patient_197,Female,8,Pediatrics,Dr. Smith,Flu,2024-01-14,2024-01-27,13,Discharged,30800.38
+P1198,Patient_198,Female,27,Cardiology,Dr. Brown,Migraine,2024-01-06,2024-01-09,3,Discharged,31164.47
+P1199,Patient_199,Male,54,Neurology,Dr. Brown,Asthma,2023-01-20,2023-01-30,10,Discharged,39390.54
+P1200,Patient_200,Male,50,Emergency,Dr. Johnson,Migraine,2023-03-31,2023-04-06,6,Discharged,35142.85
+P1201,Patient_201,Male,75,Pediatrics,Dr. Johnson,Covid-19,2023-08-02,2023-08-21,19,Discharged,42698.82
+P1202,Patient_202,Other,90,Emergency,Dr. Brown,Cancer,2023-04-01,2023-04-09,8,Discharged,33603.46
+P1203,Patient_203,Male,3,Pediatrics,Dr. Patel,Fracture,2023-01-19,2023-02-07,19,Discharged,16479.17
+P1204,Patient_204,Male,74,Pediatrics,Dr. Johnson,Heart Disease,2023-07-23,2023-08-05,13,Discharged,26851.96
+P1205,Patient_205,Other,49,Emergency,Dr. Patel,Migraine,2023-09-11,2023-09-29,18,Discharged,26457.08
+P1206,Patient_206,Female,62,Emergency,Dr. Patel,Covid-19,2023-04-06,2023-04-17,11,Discharged,37896.49
+P1207,Patient_207,Male,1,Orthopedics,Dr. Lee,Cancer,2024-01-19,2024-02-01,13,Discharged,16186.02
+P1208,Patient_208,Other,46,Pediatrics,Dr. Smith,Fracture,2023-05-29,2023-06-03,5,Discharged,4619.32
+P1209,Patient_209,Male,39,Cardiology,Dr. Brown,Flu,2023-01-20,2023-01-23,3,Discharged,45099.8
+P1210,Patient_210,Male,50,Orthopedics,Dr. Smith,Fracture,2023-01-05,2023-01-22,17,Discharged,47824.23
+P1211,Patient_211,Other,54,Oncology,Dr. Brown,Asthma,2023-06-02,2023-06-14,12,Discharged,25754.61
+P1212,Patient_212,Female,69,Oncology,Dr. Smith,Flu,2023-10-18,2023-10-20,2,Discharged,7411.7
+P1213,Patient_213,Other,70,Neurology,Dr. Brown,Cancer,2023-11-05,2023-11-09,4,Discharged,25979.96
+P1214,Patient_214,Male,78,Cardiology,Dr. Smith,Fracture,2023-02-24,2023-03-10,14,Discharged,30508.63
+P1215,Patient_215,Female,29,Pediatrics,Dr. Lee,Covid-19,2023-06-21,2023-06-29,8,Discharged,27357.75
+P1216,Patient_216,Other,63,Cardiology,Dr. Patel,Cancer,2023-05-26,2023-05-29,3,Discharged,48929.45
+P1217,Patient_217,Other,29,Oncology,Dr. Brown,Flu,2023-08-21,2023-09-01,11,Discharged,49370.36
+P1218,Patient_218,Female,35,Pediatrics,Dr. Patel,Asthma,2023-11-25,2023-12-15,20,Discharged,46828.37
+P1219,Patient_219,Male,56,Cardiology,Dr. Brown,Covid-19,2023-10-06,2023-10-26,20,Discharged,8335.18
+P1220,Patient_220,Other,63,Emergency,Dr. Brown,Asthma,2023-09-26,2023-10-16,20,Discharged,43319.07
+P1221,Patient_221,Other,4,Orthopedics,Dr. Lee,Migraine,2023-09-10,2023-09-23,13,Discharged,29282.26
+P1222,Patient_222,Other,50,Pediatrics,Dr. Smith,Covid-19,2023-03-10,2023-03-21,11,Discharged,19539.8
+P1223,Patient_223,Male,44,Emergency,Dr. Brown,Migraine,2023-09-16,2023-09-17,1,Discharged,34781.22
+P1224,Patient_224,Other,86,Orthopedics,Dr. Smith,Covid-19,2023-08-28,2023-09-06,9,Discharged,38610.85
+P1225,Patient_225,Female,87,Cardiology,Dr. Lee,Flu,2023-05-20,2023-06-04,15,Discharged,47813.74
+P1226,Patient_226,Female,52,Pediatrics,Dr. Johnson,Heart Disease,2023-04-09,2023-04-25,16,Discharged,38977.62
+P1227,Patient_227,Other,22,Neurology,Dr. Patel,Heart Disease,2023-02-27,2023-03-07,8,Discharged,2801.09
+P1228,Patient_228,Other,60,Neurology,Dr. Brown,Migraine,2023-06-19,2023-07-01,12,Discharged,5241.56
+P1229,Patient_229,Female,17,Oncology,Dr. Lee,Migraine,2023-03-25,2023-04-12,18,Discharged,14584.89
+P1230,Patient_230,Female,80,Emergency,Dr. Smith,Asthma,2024-01-10,2024-01-23,13,Discharged,3911.69
+P1231,Patient_231,Other,69,Pediatrics,Dr. Brown,Fracture,2023-08-23,2023-09-06,14,Discharged,4902.51
+P1232,Patient_232,Female,4,Emergency,Dr. Smith,Covid-19,2023-11-28,2023-12-04,6,Discharged,39885.92
+P1233,Patient_233,Male,51,Cardiology,Dr. Johnson,Covid-19,2023-05-12,2023-05-31,19,Discharged,26317.31
+P1234,Patient_234,Male,76,Neurology,Dr. Brown,Covid-19,2024-01-03,2024-01-16,13,Discharged,32171.39
+P1235,Patient_235,Male,73,Emergency,Dr. Patel,Covid-19,2023-04-06,2023-04-09,3,Discharged,26050.35
+P1236,Patient_236,Male,85,Oncology,Dr. Brown,Fracture,2023-01-08,2023-01-28,20,Discharged,21940.74
+P1237,Patient_237,Female,4,Pediatrics,Dr. Patel,Asthma,2024-01-13,2024-01-23,10,Discharged,35686.91
+P1238,Patient_238,Male,11,Neurology,Dr. Smith,Migraine,2023-06-22,2023-06-30,8,Discharged,5956.53
+P1239,Patient_239,Other,83,Emergency,Dr. Brown,Heart Disease,2023-06-01,2023-06-04,3,Discharged,27755.11
+P1240,Patient_240,Other,55,Emergency,Dr. Lee,Fracture,2023-10-18,2023-10-21,3,Discharged,31570.26
+P1241,Patient_241,Male,18,Pediatrics,Dr. Lee,Flu,2023-12-12,2023-12-21,9,Discharged,15318.45
+P1242,Patient_242,Other,60,Oncology,Dr. Johnson,Fracture,2024-01-23,2024-01-28,5,Discharged,16875.53
+P1243,Patient_243,Male,24,Cardiology,Dr. Lee,Asthma,2023-04-09,2023-04-22,13,Discharged,26542.63
+P1244,Patient_244,Male,7,Oncology,Dr. Johnson,Fracture,2023-03-31,2023-04-05,5,Discharged,11753.48
+P1245,Patient_245,Male,34,Cardiology,Dr. Smith,Fracture,2023-11-09,2023-11-22,13,Discharged,40786.88
+P1246,Patient_246,Other,49,Orthopedics,Dr. Patel,Asthma,2023-11-24,2023-12-05,11,Discharged,27746.73
+P1247,Patient_247,Other,42,Emergency,Dr. Smith,Cancer,2023-07-27,2023-08-08,12,Discharged,20755.11
+P1248,Patient_248,Male,28,Emergency,Dr. Patel,Flu,2023-08-07,2023-08-11,4,Discharged,32446.12
+P1249,Patient_249,Male,59,Neurology,Dr. Patel,Migraine,2023-09-21,2023-09-24,3,Discharged,42057.27
+P1250,Patient_250,Male,42,Orthopedics,Dr. Johnson,Heart Disease,2023-06-17,2023-06-18,1,Discharged,34690.67
+P1251,Patient_251,Male,44,Emergency,Dr. Lee,Heart Disease,2023-02-14,2023-02-24,10,Discharged,5173.52
+P1252,Patient_252,Female,49,Cardiology,Dr. Lee,Migraine,2023-07-25,2023-08-09,15,Discharged,35536.44
+P1253,Patient_253,Male,36,Pediatrics,Dr. Johnson,Cancer,2023-12-09,2023-12-21,12,Discharged,37038.0
+P1254,Patient_254,Other,54,Cardiology,Dr. Johnson,Asthma,2023-02-18,2023-02-27,9,Discharged,42630.47
+P1255,Patient_255,Male,33,Emergency,Dr. Smith,Heart Disease,2023-04-05,2023-04-09,4,Discharged,4779.49
+P1256,Patient_256,Female,11,Emergency,Dr. Johnson,Fracture,2023-03-13,2023-03-18,5,Discharged,6138.21
+P1257,Patient_257,Other,61,Cardiology,Dr. Lee,Heart Disease,2023-09-02,2023-09-05,3,Discharged,22855.21
+P1258,Patient_258,Female,3,Pediatrics,Dr. Johnson,Flu,2023-06-15,2023-06-21,6,Discharged,23761.85
+P1259,Patient_259,Male,70,Orthopedics,Dr. Johnson,Flu,2023-05-08,2023-05-22,14,Discharged,31223.96
+P1260,Patient_260,Other,7,Emergency,Dr. Patel,Migraine,2023-01-04,2023-01-19,15,Discharged,16845.92
+P1261,Patient_261,Male,45,Neurology,Dr. Johnson,Cancer,2023-05-14,2023-06-01,18,Discharged,37601.29
+P1262,Patient_262,Other,29,Cardiology,Dr. Smith,Covid-19,2023-07-16,2023-08-03,18,Discharged,37551.59
+P1263,Patient_263,Other,84,Cardiology,Dr. Johnson,Covid-19,2023-05-01,2023-05-18,17,Discharged,7733.26
+P1264,Patient_264,Other,9,Neurology,Dr. Brown,Cancer,2023-08-17,2023-08-31,14,Discharged,35979.23
+P1265,Patient_265,Female,84,Cardiology,Dr. Brown,Heart Disease,2024-01-21,2024-01-25,4,Discharged,35671.98
+P1266,Patient_266,Male,6,Neurology,Dr. Patel,Cancer,2023-05-17,2023-05-18,1,Discharged,9863.97
+P1267,Patient_267,Female,4,Neurology,Dr. Patel,Asthma,2023-06-18,2023-06-21,3,Discharged,47744.78
+P1268,Patient_268,Female,32,Neurology,Dr. Brown,Cancer,2023-06-04,2023-06-16,12,Discharged,27104.26
+P1269,Patient_269,Male,26,Pediatrics,Dr. Patel,Asthma,2023-10-26,2023-11-13,18,Discharged,39583.38
+P1270,Patient_270,Male,3,Orthopedics,Dr. Patel,Heart Disease,2024-01-06,2024-01-09,3,Discharged,36596.74
+P1271,Patient_271,Male,80,Orthopedics,Dr. Lee,Flu,2023-10-21,2023-11-10,20,Discharged,10014.22
+P1272,Patient_272,Other,20,Oncology,Dr. Lee,Fracture,2023-01-06,2023-01-26,20,Discharged,8092.67
+P1273,Patient_273,Female,31,Pediatrics,Dr. Johnson,Migraine,2023-05-14,2023-05-25,11,Discharged,39493.95
+P1274,Patient_274,Female,17,Oncology,Dr. Brown,Covid-19,2023-12-01,2023-12-14,13,Discharged,14900.7
+P1275,Patient_275,Female,61,Emergency,Dr. Smith,Flu,2023-07-04,2023-07-05,1,Discharged,44547.91
+P1276,Patient_276,Female,86,Orthopedics,Dr. Brown,Cancer,2023-12-21,2023-12-31,10,Discharged,39028.65
+P1277,Patient_277,Female,15,Orthopedics,Dr. Brown,Cancer,2023-05-01,2023-05-15,14,Discharged,3409.1
+P1278,Patient_278,Other,73,Orthopedics,Dr. Lee,Covid-19,2023-02-01,2023-02-14,13,Discharged,40741.18
+P1279,Patient_279,Male,28,Cardiology,Dr. Lee,Heart Disease,2023-12-08,2023-12-11,3,Discharged,15055.07
+P1280,Patient_280,Other,60,Oncology,Dr. Patel,Migraine,2023-03-02,2023-03-20,18,Discharged,5065.86
+P1281,Patient_281,Other,90,Pediatrics,Dr. Smith,Fracture,2023-08-27,2023-09-04,8,Discharged,36191.52
+P1282,Patient_282,Other,33,Oncology,Dr. Lee,Asthma,2023-06-07,2023-06-26,19,Discharged,29679.28
+P1283,Patient_283,Male,48,Emergency,Dr. Patel,Asthma,2023-03-23,2023-04-09,17,Discharged,5699.36
+P1284,Patient_284,Male,22,Orthopedics,Dr. Smith,Heart Disease,2023-07-27,2023-08-02,6,Discharged,23849.49
+P1285,Patient_285,Female,78,Pediatrics,Dr. Lee,Covid-19,2023-12-18,2023-12-31,13,Discharged,19285.95
+P1286,Patient_286,Other,78,Oncology,Dr. Brown,Heart Disease,2023-09-15,2023-09-21,6,Discharged,25981.28
+P1287,Patient_287,Female,15,Orthopedics,Dr. Brown,Fracture,2023-12-27,2024-01-01,5,Discharged,29210.53
+P1288,Patient_288,Male,21,Orthopedics,Dr. Smith,Asthma,2024-01-30,2024-02-08,9,Discharged,19649.01
+P1289,Patient_289,Male,40,Pediatrics,Dr. Smith,Fracture,2023-06-09,2023-06-19,10,Discharged,14245.57
+P1290,Patient_290,Male,14,Emergency,Dr. Lee,Cancer,2023-12-20,2023-12-29,9,Discharged,6939.44
+P1291,Patient_291,Male,75,Neurology,Dr. Lee,Heart Disease,2023-03-02,2023-03-18,16,Discharged,29547.79
+P1292,Patient_292,Other,4,Pediatrics,Dr. Smith,Asthma,2023-11-24,2023-11-29,5,Discharged,36693.36
+P1293,Patient_293,Female,40,Neurology,Dr. Smith,Flu,2023-06-01,2023-06-04,3,Discharged,12963.41
+P1294,Patient_294,Male,74,Emergency,Dr. Patel,Asthma,2023-07-08,2023-07-14,6,Discharged,26423.59
+P1295,Patient_295,Female,87,Cardiology,Dr. Patel,Flu,2023-11-11,2023-11-25,14,Discharged,4113.82
+P1296,Patient_296,Male,49,Pediatrics,Dr. Patel,Heart Disease,2023-04-24,2023-05-03,9,Discharged,43420.57
+P1297,Patient_297,Female,51,Neurology,Dr. Brown,Fracture,2023-04-23,2023-05-07,14,Discharged,13738.47
+P1298,Patient_298,Female,26,Emergency,Dr. Brown,Migraine,2023-03-10,2023-03-20,10,Discharged,24644.7
+P1299,Patient_299,Male,10,Oncology,Dr. Patel,Fracture,2023-09-02,2023-09-18,16,Discharged,20383.01
+P1300,Patient_300,Male,76,Orthopedics,Dr. Patel,Fracture,2023-03-20,2023-03-23,3,Discharged,9204.06
+P1301,Patient_301,Female,89,Cardiology,Dr. Smith,Migraine,2023-08-21,2023-09-02,12,Discharged,46695.68
+P1302,Patient_302,Other,81,Pediatrics,Dr. Brown,Covid-19,2024-01-18,2024-01-27,9,Discharged,43159.29
+P1303,Patient_303,Male,32,Neurology,Dr. Patel,Fracture,2023-11-07,2023-11-15,8,Discharged,28537.51
+P1304,Patient_304,Male,14,Oncology,Dr. Johnson,Migraine,2023-07-11,2023-07-27,16,Discharged,45869.49
+P1305,Patient_305,Other,90,Neurology,Dr. Lee,Heart Disease,2023-08-01,2023-08-21,20,Discharged,37551.96
+P1306,Patient_306,Other,39,Emergency,Dr. Patel,Migraine,2023-12-26,2024-01-15,20,Discharged,22129.73
+P1307,Patient_307,Male,88,Pediatrics,Dr. Brown,Asthma,2023-10-09,2023-10-16,7,Discharged,17446.5
+P1308,Patient_308,Male,77,Emergency,Dr. Patel,Flu,2023-08-30,2023-09-14,15,Discharged,21980.32
+P1309,Patient_309,Male,16,Neurology,Dr. Johnson,Migraine,2024-01-23,2024-01-27,4,Discharged,36573.82
+P1310,Patient_310,Male,73,Pediatrics,Dr. Smith,Fracture,2023-10-03,2023-10-08,5,Discharged,15020.38
+P1311,Patient_311,Female,6,Neurology,Dr. Brown,Covid-19,2023-12-07,2023-12-17,10,Discharged,5738.58
+P1312,Patient_312,Female,45,Orthopedics,Dr. Smith,Heart Disease,2023-04-22,2023-04-23,1,Discharged,19894.79
+P1313,Patient_313,Female,69,Pediatrics,Dr. Lee,Migraine,2024-01-26,2024-02-08,13,Discharged,26097.97
+P1314,Patient_314,Male,55,Pediatrics,Dr. Smith,Fracture,2023-05-07,2023-05-18,11,Discharged,45293.17
+P1315,Patient_315,Female,85,Cardiology,Dr. Patel,Covid-19,2023-12-15,2024-01-04,20,Discharged,10608.53
+P1316,Patient_316,Male,48,Orthopedics,Dr. Johnson,Migraine,2024-01-22,2024-02-04,13,Discharged,40608.22
+P1317,Patient_317,Male,9,Pediatrics,Dr. Smith,Heart Disease,2023-11-02,2023-11-13,11,Discharged,49107.87
+P1318,Patient_318,Female,65,Oncology,Dr. Johnson,Heart Disease,2023-02-11,2023-02-26,15,Discharged,47795.81
+P1319,Patient_319,Male,83,Neurology,Dr. Brown,Flu,2023-09-27,2023-10-08,11,Discharged,5308.47
+P1320,Patient_320,Female,44,Oncology,Dr. Brown,Heart Disease,2023-08-17,2023-08-31,14,Discharged,24324.52
+P1321,Patient_321,Female,2,Neurology,Dr. Patel,Covid-19,2023-09-28,2023-10-18,20,Discharged,15550.73
+P1322,Patient_322,Female,54,Emergency,Dr. Patel,Fracture,2023-12-27,2024-01-01,5,Discharged,42552.63
+P1323,Patient_323,Female,63,Neurology,Dr. Patel,Heart Disease,2023-07-05,2023-07-15,10,Discharged,17710.44
+P1324,Patient_324,Female,14,Cardiology,Dr. Johnson,Heart Disease,2023-02-09,2023-02-20,11,Discharged,28548.39
+P1325,Patient_325,Other,56,Emergency,Dr. Lee,Fracture,2023-10-16,2023-11-05,20,Discharged,2382.52
+P1326,Patient_326,Other,47,Pediatrics,Dr. Lee,Fracture,2023-02-27,2023-03-06,7,Discharged,11632.22
+P1327,Patient_327,Other,82,Neurology,Dr. Lee,Covid-19,2023-02-01,2023-02-17,16,Discharged,29062.72
+P1328,Patient_328,Other,59,Cardiology,Dr. Brown,Heart Disease,2023-10-08,2023-10-19,11,Discharged,16587.65
+P1329,Patient_329,Other,20,Oncology,Dr. Brown,Covid-19,2023-09-16,2023-09-22,6,Discharged,31890.44
+P1330,Patient_330,Female,56,Emergency,Dr. Lee,Heart Disease,2023-04-14,2023-04-27,13,Discharged,24268.48
+P1331,Patient_331,Male,23,Emergency,Dr. Patel,Migraine,2023-10-21,2023-11-01,11,Discharged,30401.16
+P1332,Patient_332,Male,67,Cardiology,Dr. Smith,Asthma,2023-10-02,2023-10-12,10,Discharged,25681.31
+P1333,Patient_333,Female,84,Oncology,Dr. Lee,Heart Disease,2023-03-18,2023-04-03,16,Discharged,39085.44
+P1334,Patient_334,Male,35,Emergency,Dr. Smith,Flu,2023-03-26,2023-04-14,19,Discharged,11380.28
+P1335,Patient_335,Male,79,Pediatrics,Dr. Lee,Asthma,2023-06-17,2023-06-25,8,Discharged,45221.28
+P1336,Patient_336,Other,69,Neurology,Dr. Smith,Asthma,2023-09-24,2023-10-05,11,Discharged,38503.15
+P1337,Patient_337,Other,62,Orthopedics,Dr. Patel,Flu,2023-08-15,2023-08-28,13,Discharged,13766.09
+P1338,Patient_338,Other,60,Oncology,Dr. Brown,Flu,2023-03-01,2023-03-10,9,Discharged,2306.14
+P1339,Patient_339,Male,56,Neurology,Dr. Lee,Flu,2023-12-15,2023-12-28,13,Discharged,21681.73
+P1340,Patient_340,Other,76,Orthopedics,Dr. Lee,Covid-19,2023-04-16,2023-04-28,12,Discharged,13183.89
+P1341,Patient_341,Female,35,Emergency,Dr. Patel,Asthma,2024-01-03,2024-01-07,4,Discharged,18628.34
+P1342,Patient_342,Male,42,Orthopedics,Dr. Johnson,Heart Disease,2023-10-26,2023-11-14,19,Discharged,42299.55
+P1343,Patient_343,Male,32,Oncology,Dr. Lee,Migraine,2023-09-08,2023-09-15,7,Discharged,44105.53
+P1344,Patient_344,Other,12,Neurology,Dr. Smith,Covid-19,2023-02-16,2023-03-07,19,Discharged,47647.53
+P1345,Patient_345,Female,36,Emergency,Dr. Patel,Fracture,2023-09-19,2023-10-07,18,Discharged,2070.18
+P1346,Patient_346,Other,58,Emergency,Dr. Johnson,Asthma,2023-08-17,2023-08-23,6,Discharged,33550.58
+P1347,Patient_347,Other,32,Emergency,Dr. Lee,Heart Disease,2023-01-29,2023-02-16,18,Discharged,42752.29
+P1348,Patient_348,Male,60,Emergency,Dr. Lee,Cancer,2023-08-21,2023-08-22,1,Discharged,36906.32
+P1349,Patient_349,Male,73,Orthopedics,Dr. Brown,Heart Disease,2023-03-09,2023-03-24,15,Discharged,6989.55
+P1350,Patient_350,Other,79,Emergency,Dr. Johnson,Covid-19,2023-09-20,2023-09-27,7,Discharged,27431.1
+P1351,Patient_351,Male,86,Cardiology,Dr. Patel,Flu,2023-08-01,2023-08-16,15,Discharged,13432.04
+P1352,Patient_352,Male,49,Emergency,Dr. Smith,Cancer,2023-08-22,2023-09-01,10,Discharged,25617.39
+P1353,Patient_353,Male,44,Emergency,Dr. Lee,Covid-19,2023-10-16,2023-10-19,3,Discharged,4874.96
+P1354,Patient_354,Other,4,Cardiology,Dr. Patel,Heart Disease,2023-01-30,2023-02-13,14,Discharged,49854.04
+P1355,Patient_355,Male,64,Neurology,Dr. Brown,Migraine,2023-10-14,2023-10-30,16,Discharged,36159.32
+P1356,Patient_356,Other,42,Pediatrics,Dr. Lee,Covid-19,2023-08-25,2023-08-30,5,Discharged,6465.28
+P1357,Patient_357,Male,24,Cardiology,Dr. Johnson,Migraine,2023-12-11,2023-12-21,10,Discharged,46221.17
+P1358,Patient_358,Female,63,Oncology,Dr. Patel,Cancer,2023-06-07,2023-06-15,8,Discharged,45069.8
+P1359,Patient_359,Male,28,Neurology,Dr. Smith,Fracture,2024-01-06,2024-01-15,9,Discharged,26948.44
+P1360,Patient_360,Other,46,Emergency,Dr. Brown,Asthma,2023-01-12,2023-01-17,5,Discharged,35640.65
+P1361,Patient_361,Male,34,Orthopedics,Dr. Patel,Asthma,2023-07-22,2023-08-05,14,Discharged,19879.61
+P1362,Patient_362,Other,44,Cardiology,Dr. Lee,Covid-19,2023-05-11,2023-05-24,13,Discharged,48778.63
+P1363,Patient_363,Other,36,Neurology,Dr. Smith,Cancer,2023-01-02,2023-01-05,3,Discharged,6075.32
+P1364,Patient_364,Male,77,Neurology,Dr. Lee,Migraine,2024-01-17,2024-02-01,15,Discharged,6587.7
+P1365,Patient_365,Other,90,Emergency,Dr. Lee,Cancer,2023-04-22,2023-05-12,20,Discharged,8408.66
+P1366,Patient_366,Male,36,Pediatrics,Dr. Johnson,Flu,2023-10-24,2023-11-09,16,Discharged,41358.22
+P1367,Patient_367,Female,72,Orthopedics,Dr. Johnson,Covid-19,2023-02-07,2023-02-26,19,Discharged,5591.86
+P1368,Patient_368,Other,2,Orthopedics,Dr. Lee,Flu,2023-01-24,2023-02-06,13,Discharged,29255.39
+P1369,Patient_369,Other,67,Orthopedics,Dr. Brown,Fracture,2023-08-05,2023-08-23,18,Discharged,22879.18
+P1370,Patient_370,Other,25,Oncology,Dr. Johnson,Cancer,2023-06-26,2023-07-13,17,Discharged,48282.48
+P1371,Patient_371,Other,11,Neurology,Dr. Johnson,Cancer,2023-12-25,2024-01-08,14,Discharged,13365.04
+P1372,Patient_372,Female,31,Oncology,Dr. Johnson,Cancer,2023-02-02,2023-02-20,18,Discharged,14527.57
+P1373,Patient_373,Female,53,Oncology,Dr. Johnson,Cancer,2023-10-05,2023-10-07,2,Discharged,17120.43
+P1374,Patient_374,Male,63,Neurology,Dr. Smith,Fracture,2023-01-31,2023-02-12,12,Discharged,40439.21
+P1375,Patient_375,Other,72,Orthopedics,Dr. Lee,Migraine,2023-02-05,2023-02-23,18,Discharged,35634.83
+P1376,Patient_376,Other,31,Neurology,Dr. Smith,Heart Disease,2023-08-30,2023-09-19,20,Discharged,37296.94
+P1377,Patient_377,Female,89,Pediatrics,Dr. Patel,Fracture,2023-01-17,2023-01-20,3,Discharged,17266.77
+P1378,Patient_378,Male,61,Neurology,Dr. Patel,Migraine,2023-05-27,2023-05-31,4,Discharged,15053.88
+P1379,Patient_379,Female,83,Emergency,Dr. Patel,Asthma,2023-07-29,2023-08-06,8,Discharged,5585.0
+P1380,Patient_380,Female,63,Neurology,Dr. Smith,Covid-19,2023-04-03,2023-04-15,12,Discharged,11730.21
+P1381,Patient_381,Male,58,Cardiology,Dr. Lee,Migraine,2024-01-29,2024-02-04,6,Discharged,39436.98
+P1382,Patient_382,Other,3,Pediatrics,Dr. Patel,Covid-19,2023-03-11,2023-03-31,20,Discharged,30065.99
+P1383,Patient_383,Other,12,Cardiology,Dr. Johnson,Asthma,2024-01-28,2024-01-30,2,Discharged,9459.71
+P1384,Patient_384,Female,38,Orthopedics,Dr. Patel,Migraine,2023-11-25,2023-12-14,19,Discharged,9890.0
+P1385,Patient_385,Female,29,Orthopedics,Dr. Brown,Cancer,2024-01-09,2024-01-22,13,Discharged,24370.65
+P1386,Patient_386,Female,52,Emergency,Dr. Johnson,Fracture,2023-11-27,2023-12-08,11,Discharged,21512.6
+P1387,Patient_387,Male,89,Emergency,Dr. Johnson,Asthma,2023-08-04,2023-08-18,14,Discharged,27724.38
+P1388,Patient_388,Male,32,Emergency,Dr. Johnson,Migraine,2023-07-11,2023-07-15,4,Discharged,48302.47
+P1389,Patient_389,Female,40,Pediatrics,Dr. Patel,Heart Disease,2023-07-15,2023-07-16,1,Discharged,11966.54
+P1390,Patient_390,Other,85,Oncology,Dr. Johnson,Heart Disease,2023-08-18,2023-08-22,4,Discharged,16798.77
+P1391,Patient_391,Other,75,Neurology,Dr. Brown,Flu,2023-07-13,2023-07-22,9,Discharged,14720.38
+P1392,Patient_392,Male,48,Cardiology,Dr. Smith,Migraine,2023-07-12,2023-07-20,8,Discharged,7755.85
+P1393,Patient_393,Male,61,Pediatrics,Dr. Brown,Fracture,2023-02-11,2023-02-28,17,Discharged,9565.54
+P1394,Patient_394,Other,71,Cardiology,Dr. Lee,Cancer,2023-12-16,2024-01-02,17,Discharged,34930.63
+P1395,Patient_395,Male,68,Neurology,Dr. Johnson,Flu,2023-12-05,2023-12-23,18,Discharged,41666.56
+P1396,Patient_396,Other,45,Oncology,Dr. Brown,Migraine,2023-10-04,2023-10-23,19,Discharged,35450.14
+P1397,Patient_397,Female,55,Cardiology,Dr. Patel,Cancer,2023-03-10,2023-03-29,19,Discharged,3935.83
+P1398,Patient_398,Male,71,Pediatrics,Dr. Lee,Fracture,2023-12-01,2023-12-09,8,Discharged,42124.39
+P1399,Patient_399,Female,43,Neurology,Dr. Brown,Fracture,2023-06-28,2023-07-13,15,Discharged,17734.1
+P1400,Patient_400,Male,46,Emergency,Dr. Johnson,Flu,2023-03-02,2023-03-14,12,Discharged,6378.22
+P1401,Patient_401,Male,90,Emergency,Dr. Patel,Flu,2023-04-02,2023-04-15,13,Discharged,13914.5
+P1402,Patient_402,Female,59,Emergency,Dr. Johnson,Migraine,2023-10-03,2023-10-18,15,Discharged,19075.65
+P1403,Patient_403,Female,35,Neurology,Dr. Lee,Cancer,2023-07-21,2023-08-09,19,Discharged,26646.06
+P1404,Patient_404,Male,40,Oncology,Dr. Brown,Asthma,2023-09-28,2023-10-15,17,Discharged,34504.8
+P1405,Patient_405,Female,33,Pediatrics,Dr. Johnson,Heart Disease,2023-03-07,2023-03-12,5,Discharged,14488.01
+P1406,Patient_406,Other,30,Emergency,Dr. Lee,Cancer,2024-01-08,2024-01-20,12,Discharged,49552.48
+P1407,Patient_407,Other,16,Neurology,Dr. Patel,Fracture,2023-04-25,2023-04-26,1,Discharged,3491.94
+P1408,Patient_408,Female,25,Cardiology,Dr. Brown,Asthma,2023-01-02,2023-01-18,16,Discharged,21410.83
+P1409,Patient_409,Other,41,Emergency,Dr. Brown,Fracture,2024-01-23,2024-01-27,4,Discharged,23705.66
+P1410,Patient_410,Other,16,Orthopedics,Dr. Lee,Asthma,2023-01-12,2023-01-22,10,Discharged,37907.77
+P1411,Patient_411,Other,69,Pediatrics,Dr. Brown,Migraine,2023-06-02,2023-06-16,14,Discharged,13992.93
+P1412,Patient_412,Male,89,Cardiology,Dr. Patel,Heart Disease,2023-08-26,2023-08-29,3,Discharged,24178.08
+P1413,Patient_413,Other,24,Oncology,Dr. Patel,Covid-19,2023-12-11,2023-12-15,4,Discharged,40587.04
+P1414,Patient_414,Other,25,Oncology,Dr. Brown,Migraine,2024-01-04,2024-01-09,5,Discharged,8710.07
+P1415,Patient_415,Female,28,Neurology,Dr. Johnson,Fracture,2023-10-06,2023-10-18,12,Discharged,2573.93
+P1416,Patient_416,Other,62,Oncology,Dr. Johnson,Asthma,2023-08-06,2023-08-16,10,Discharged,41857.87
+P1417,Patient_417,Male,36,Orthopedics,Dr. Patel,Fracture,2023-09-30,2023-10-11,11,Discharged,49163.23
+P1418,Patient_418,Male,76,Emergency,Dr. Johnson,Cancer,2023-07-14,2023-07-29,15,Discharged,8274.33
+P1419,Patient_419,Female,68,Cardiology,Dr. Lee,Heart Disease,2023-04-28,2023-05-05,7,Discharged,41536.32
+P1420,Patient_420,Male,77,Emergency,Dr. Smith,Cancer,2023-05-07,2023-05-24,17,Discharged,19867.51
+P1421,Patient_421,Male,37,Pediatrics,Dr. Brown,Cancer,2023-08-24,2023-09-09,16,Discharged,32254.28
+P1422,Patient_422,Other,13,Emergency,Dr. Lee,Migraine,2023-06-27,2023-07-09,12,Discharged,32944.88
+P1423,Patient_423,Other,25,Neurology,Dr. Patel,Cancer,2023-03-21,2023-04-06,16,Discharged,29951.54
+P1424,Patient_424,Male,38,Emergency,Dr. Smith,Flu,2023-05-22,2023-05-26,4,Discharged,14423.39
+P1425,Patient_425,Female,30,Pediatrics,Dr. Patel,Flu,2023-04-07,2023-04-22,15,Discharged,41011.86
+P1426,Patient_426,Female,47,Cardiology,Dr. Smith,Cancer,2024-01-07,2024-01-22,15,Discharged,3046.41
+P1427,Patient_427,Other,23,Orthopedics,Dr. Lee,Heart Disease,2024-01-27,2024-02-07,11,Discharged,5094.66
+P1428,Patient_428,Male,39,Cardiology,Dr. Smith,Cancer,2023-02-27,2023-03-02,3,Discharged,45319.81
+P1429,Patient_429,Other,2,Cardiology,Dr. Johnson,Fracture,2023-01-17,2023-01-27,10,Discharged,23284.7
+P1430,Patient_430,Female,69,Neurology,Dr. Lee,Fracture,2023-12-05,2023-12-07,2,Discharged,8181.99
+P1431,Patient_431,Male,17,Pediatrics,Dr. Brown,Heart Disease,2023-08-03,2023-08-07,4,Discharged,45443.74
+P1432,Patient_432,Other,36,Cardiology,Dr. Patel,Migraine,2023-11-11,2023-11-12,1,Discharged,41809.1
+P1433,Patient_433,Other,6,Cardiology,Dr. Johnson,Flu,2024-01-28,2024-02-08,11,Discharged,17914.39
+P1434,Patient_434,Female,7,Orthopedics,Dr. Brown,Flu,2023-01-09,2023-01-13,4,Discharged,4049.42
+P1435,Patient_435,Other,71,Oncology,Dr. Smith,Migraine,2023-05-04,2023-05-10,6,Discharged,24127.76
+P1436,Patient_436,Female,38,Orthopedics,Dr. Johnson,Cancer,2023-04-16,2023-04-24,8,Discharged,10063.48
+P1437,Patient_437,Female,90,Pediatrics,Dr. Brown,Heart Disease,2023-02-04,2023-02-21,17,Discharged,29546.44
+P1438,Patient_438,Male,17,Pediatrics,Dr. Lee,Asthma,2023-02-21,2023-02-27,6,Discharged,41440.9
+P1439,Patient_439,Male,82,Neurology,Dr. Smith,Covid-19,2023-11-01,2023-11-19,18,Discharged,20959.94
+P1440,Patient_440,Other,63,Emergency,Dr. Brown,Covid-19,2023-01-18,2023-01-24,6,Discharged,3415.15
+P1441,Patient_441,Female,14,Emergency,Dr. Smith,Cancer,2023-08-17,2023-08-28,11,Discharged,34794.22
+P1442,Patient_442,Female,2,Emergency,Dr. Brown,Migraine,2023-11-03,2023-11-21,18,Discharged,10294.75
+P1443,Patient_443,Male,74,Oncology,Dr. Patel,Heart Disease,2023-12-11,2023-12-25,14,Discharged,12306.37
+P1444,Patient_444,Male,37,Pediatrics,Dr. Lee,Flu,2023-12-27,2024-01-11,15,Discharged,10983.25
+P1445,Patient_445,Female,61,Oncology,Dr. Johnson,Asthma,2023-01-25,2023-02-02,8,Discharged,15433.02
+P1446,Patient_446,Male,62,Emergency,Dr. Brown,Flu,2023-05-06,2023-05-19,13,Discharged,44404.34
+P1447,Patient_447,Other,57,Emergency,Dr. Smith,Cancer,2024-01-15,2024-01-21,6,Discharged,3663.17
+P1448,Patient_448,Female,44,Orthopedics,Dr. Lee,Fracture,2023-01-23,2023-01-29,6,Discharged,31720.47
+P1449,Patient_449,Male,24,Pediatrics,Dr. Johnson,Migraine,2023-07-25,2023-08-08,14,Discharged,13797.67
+P1450,Patient_450,Other,7,Emergency,Dr. Smith,Covid-19,2023-08-13,2023-08-26,13,Discharged,16165.05
+P1451,Patient_451,Female,33,Cardiology,Dr. Lee,Migraine,2023-04-30,2023-05-01,1,Discharged,21775.63
+P1452,Patient_452,Other,62,Pediatrics,Dr. Smith,Asthma,2023-10-04,2023-10-24,20,Discharged,28433.06
+P1453,Patient_453,Other,15,Oncology,Dr. Lee,Cancer,2023-04-22,2023-04-29,7,Discharged,4927.0
+P1454,Patient_454,Female,9,Pediatrics,Dr. Johnson,Migraine,2024-01-22,2024-02-06,15,Discharged,15429.25
+P1455,Patient_455,Other,52,Neurology,Dr. Johnson,Flu,2024-02-02,2024-02-21,19,Discharged,8587.33
+P1456,Patient_456,Male,63,Cardiology,Dr. Smith,Cancer,2023-01-29,2023-02-12,14,Discharged,11573.97
+P1457,Patient_457,Male,10,Emergency,Dr. Lee,Flu,2023-03-13,2023-03-26,13,Discharged,44463.32
+P1458,Patient_458,Male,74,Neurology,Dr. Brown,Heart Disease,2023-09-15,2023-09-16,1,Discharged,27239.07
+P1459,Patient_459,Other,81,Orthopedics,Dr. Johnson,Heart Disease,2023-05-29,2023-06-05,7,Discharged,32276.21
+P1460,Patient_460,Male,88,Pediatrics,Dr. Brown,Fracture,2023-04-30,2023-05-07,7,Discharged,40504.07
+P1461,Patient_461,Other,7,Pediatrics,Dr. Brown,Migraine,2024-01-10,2024-01-19,9,Discharged,40152.62
+P1462,Patient_462,Male,20,Orthopedics,Dr. Patel,Heart Disease,2023-10-22,2023-10-25,3,Discharged,49491.37
+P1463,Patient_463,Female,20,Neurology,Dr. Smith,Migraine,2023-06-13,2023-07-02,19,Discharged,39531.96
+P1464,Patient_464,Other,73,Cardiology,Dr. Smith,Flu,2023-10-23,2023-10-27,4,Discharged,19237.38
+P1465,Patient_465,Other,39,Emergency,Dr. Smith,Cancer,2023-11-03,2023-11-21,18,Discharged,28136.85
+P1466,Patient_466,Male,11,Neurology,Dr. Lee,Heart Disease,2024-01-31,2024-02-06,6,Discharged,25264.62
+P1467,Patient_467,Female,32,Oncology,Dr. Johnson,Cancer,2023-12-11,2023-12-23,12,Discharged,45808.5
+P1468,Patient_468,Male,16,Emergency,Dr. Johnson,Asthma,2023-06-14,2023-06-25,11,Discharged,26114.88
+P1469,Patient_469,Male,72,Neurology,Dr. Patel,Heart Disease,2023-05-02,2023-05-09,7,Discharged,20642.3
+P1470,Patient_470,Female,54,Cardiology,Dr. Patel,Migraine,2023-06-04,2023-06-19,15,Discharged,10631.16
+P1471,Patient_471,Female,78,Pediatrics,Dr. Patel,Asthma,2023-03-15,2023-03-19,4,Discharged,17306.12
+P1472,Patient_472,Male,77,Neurology,Dr. Brown,Heart Disease,2023-12-05,2023-12-14,9,Discharged,12512.97
+P1473,Patient_473,Female,80,Orthopedics,Dr. Smith,Covid-19,2023-09-24,2023-10-10,16,Discharged,44996.71
+P1474,Patient_474,Male,29,Cardiology,Dr. Lee,Heart Disease,2023-04-24,2023-05-11,17,Discharged,39369.84
+P1475,Patient_475,Other,67,Pediatrics,Dr. Johnson,Flu,2023-07-31,2023-08-11,11,Discharged,4812.38
+P1476,Patient_476,Male,49,Cardiology,Dr. Lee,Fracture,2023-06-03,2023-06-23,20,Discharged,49593.5
+P1477,Patient_477,Other,58,Emergency,Dr. Smith,Flu,2023-05-21,2023-06-03,13,Discharged,27412.75
+P1478,Patient_478,Male,57,Orthopedics,Dr. Smith,Cancer,2023-02-01,2023-02-21,20,Discharged,38808.42
+P1479,Patient_479,Female,39,Emergency,Dr. Johnson,Migraine,2023-10-13,2023-10-26,13,Discharged,49981.08
+P1480,Patient_480,Other,76,Emergency,Dr. Brown,Asthma,2023-10-30,2023-11-18,19,Discharged,48751.03
+P1481,Patient_481,Female,55,Oncology,Dr. Patel,Migraine,2024-01-12,2024-01-16,4,Discharged,6806.45
+P1482,Patient_482,Other,40,Cardiology,Dr. Brown,Heart Disease,2023-03-31,2023-04-12,12,Discharged,33529.49
+P1483,Patient_483,Other,73,Cardiology,Dr. Smith,Migraine,2023-11-17,2023-11-29,12,Discharged,14793.3
+P1484,Patient_484,Male,80,Neurology,Dr. Smith,Asthma,2023-12-14,2023-12-29,15,Discharged,41181.69
+P1485,Patient_485,Male,8,Orthopedics,Dr. Brown,Fracture,2023-08-07,2023-08-27,20,Discharged,46028.46
+P1486,Patient_486,Male,79,Orthopedics,Dr. Patel,Fracture,2023-10-12,2023-10-18,6,Discharged,4683.62
+P1487,Patient_487,Male,13,Oncology,Dr. Patel,Heart Disease,2023-09-11,2023-09-21,10,Discharged,49826.82
+P1488,Patient_488,Female,27,Orthopedics,Dr. Smith,Heart Disease,2023-01-25,2023-02-14,20,Discharged,12531.76
+P1489,Patient_489,Male,81,Cardiology,Dr. Patel,Cancer,2023-06-26,2023-07-15,19,Discharged,42632.24
+P1490,Patient_490,Male,28,Oncology,Dr. Patel,Heart Disease,2023-11-26,2023-11-29,3,Discharged,40274.75
+P1491,Patient_491,Other,34,Orthopedics,Dr. Johnson,Flu,2023-12-10,2023-12-15,5,Discharged,19030.62
+P1492,Patient_492,Female,85,Oncology,Dr. Johnson,Flu,2023-07-15,2023-07-26,11,Discharged,42282.67
+P1493,Patient_493,Female,11,Orthopedics,Dr. Lee,Flu,2023-09-26,2023-09-30,4,Discharged,42570.6
+P1494,Patient_494,Other,21,Orthopedics,Dr. Brown,Fracture,2023-06-13,2023-06-21,8,Discharged,10452.82
+P1495,Patient_495,Other,31,Neurology,Dr. Smith,Covid-19,2023-12-23,2024-01-02,10,Discharged,30440.94
+P1496,Patient_496,Male,23,Orthopedics,Dr. Patel,Migraine,2023-08-02,2023-08-06,4,Discharged,40698.09
+P1497,Patient_497,Female,71,Oncology,Dr. Lee,Asthma,2023-07-29,2023-08-04,6,Discharged,35486.08
+P1498,Patient_498,Male,10,Cardiology,Dr. Johnson,Cancer,2023-03-18,2023-03-30,12,Discharged,45871.04
+P1499,Patient_499,Other,21,Neurology,Dr. Patel,Heart Disease,2023-06-03,2023-06-08,5,Discharged,3353.92
